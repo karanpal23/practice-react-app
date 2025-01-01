@@ -6,7 +6,6 @@ import MovieComponent from './MovieComponent';
 import NavBar from './NavBar';
 import About from './State/About';
 import {useState} from 'react';
-// import { BrowserRouter as Router ,Route,Routes} from 'react-router-dom';
 
 function App() {
 
@@ -42,21 +41,13 @@ function App() {
   }
 
   return (
-    // <Router>
-      <div className="App">
-        {/* <NavBar toggleMode={darkMode} toggleModeSwitch={toggleModeSwitch} switchtext={enableMode}  />
-        
-        <Routes>
-          <Route path='/about' element={<About/>} />
-          <Route path='/convert' element={<ConvertToUpperCase heading="Convert to upper case" mode={darkMode} />} />
-        </Routes> */}
-        {/* <MovieComponent /> */}
-        <NavBar toggleMode={darkMode} toggleModeSwitch={toggleModeSwitch} switchtext={enableMode} />
-        <Alert alert={alert}/>
-        <ConvertToUpperCase heading="Convert to upper case" mode={darkMode} />
-        {/* <About/> */}
-      </div>
-    // </Router>
+    <div className="App">
+      <NavBar toggleMode={darkMode} toggleModeSwitch={toggleModeSwitch} switchtext={enableMode}  />
+      <Alert alert={alert}/>
+      {/* <MovieComponent /> */}
+      <ConvertToUpperCase heading="Convert to upper case" mode={darkMode} />
+      {/* <About/> */}
+    </div>
   );
 }
 
