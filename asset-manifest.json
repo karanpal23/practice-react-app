@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/practice-react-app/static/css/main.49faa5e3.css",
+    "main.js": "/practice-react-app/static/js/main.cf9e84f0.js",
+    "static/media/inception_ver12_xlg-600x885.jpg": "/practice-react-app/static/media/inception_ver12_xlg-600x885.9a80e9ba9015d7cf54f5.jpg",
+    "static/media/download.jpeg": "/practice-react-app/static/media/download.d2aef79fe948e79031ad.jpeg",
+    "index.html": "/practice-react-app/index.html",
+    "main.49faa5e3.css.map": "/practice-react-app/static/css/main.49faa5e3.css.map",
+    "main.cf9e84f0.js.map": "/practice-react-app/static/js/main.cf9e84f0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.49faa5e3.css",
+    "static/js/main.cf9e84f0.js"
+  ]
+}
